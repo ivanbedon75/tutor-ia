@@ -112,12 +112,6 @@ if __name__ == "__main__":
     pregunta_usuario = input("Ingresa tu pregunta o tema de estudio: ")
     print(generar_respuesta_tutor(pregunta_usuario))
 
-
-get_ipython().system('jupyter nbconvert --to script tutor_ia.ipynb')
-get_ipython().system('python tutor_ia.py')
-
-
-
 # In[ ]:
 
 
